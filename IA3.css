@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IA3</title>
+    <style>
+         /* Style for the html document*/
+        h1 {
+            color: red;
+            background-color:aqua;
+        }
+        
+        h2{
+            color:red;
+            background-color: aqua;
+        }
+         /* Styles for elements with class "highlight" */
+        .highlight
+        {
+            background-color:chartreuse;
+        }
+        img {
+            margin: 10px;
+            border: 2px solid #555;
+            border-radius: 50%;
+        }
+        /* Styles for the para element with id "special" */
+        #special {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: blue;
+    line-height: 2.0;
+        }
+        /* Styles for div elements */
+        div {
+    margin: 0px;
+    padding: 0px;
+    border: 3px solid black;
+}
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body bgcolor="lightblue">
+    <h1 style="font-size: 30px;"><div><b>SAMPLE PROFILE PAGE OF ME</b></div></h1>
+    <img src="C:\Users\Prathana Patel\Pictures\MY IMAGE.jpeg" height="120"width="100" alt=""></img>
+    <h2 style="font-size: 22px;"><div>ABOUT ME</div></h2>
+    <p class="highlight">HELLO I AM PRATHANA S PATEL STUDYING BSC(HONS)COMPUTER SCIENCE AT RV UNIVERSITY</p>
+    <hr>
+<p><div>
+    <h1>EDUCATION</h1>
+</div></p>
+    <table border="2">
+        <tr>
+    <th>DEGREE</th>
+    <th>Institution</th>
+    <th>Year</th>
+</tr>
+    <tr>
+    <td >Bachelore's of Computer Science</td>
+    <td>BANGALORE</td>
+    <td>2020</td>
+</tr>
+
+<tr >
+    <td rowspan="2">HIGH SCHOOL</td>
+    <td>XYZ High School</td>
+    <td>2010</td>
+</tr>
+<tr>
+    <td colspan="2">Honors:BSC</td>
+</tr>
+</table>
+<hr>
+<p><div>
+    <h1>Contact information</h1>
+</div></p>
+<p id="special"><b>Email:</b> prathanap.bsc23@rvu.edu.in</p>
+    <p id="special"><b>Phone:</b> 7348889852</p>
+    <p id="special"><b>Address:</b>RISHAB BLESSINGS APARTMENT,KENCHANAHALLI-98</p>
+    <hr>
+
+    <h1><div>Personal Interests</div></h1>
+    <ul>
+        <li>SPORTS</li>
+        <li>MUSIC</li>
+        <li>DANCE</li>
+    </ul>
+    <hr>
+    <p><div>
+        <h1>Skills</h1>
+    </div></p>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>PHP</li>
+    </ol>
+    <hr>
+    <p><div>
+        <h1>Contact Me</h1>
+         <form action="">
+            <label for="Name">Name:</label>
+            <input type="text"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="Message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required>message</textarea>
+            <br><br>
+            <button>send</button>
+            </form>
+        </div></p>
+</body>
+</html>
